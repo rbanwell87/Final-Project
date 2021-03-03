@@ -1,0 +1,30 @@
+h1 {
+  color: blue;
+}
+ul {
+  margin: 10;
+  padding: 0;
+}
+li {
+  color: rgba(0, 0, 255, 0.692);
+  list-style: none;
+  margin-left: 5px;
+}
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+.weather-app {
+  padding: 20px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+.temperature {
+  font-size: 48px;
+  line-height: 1;
+  padding: 5px;
+}
+.unit {
+  font-size: 18px;
+  vertical-align: top;
+}
