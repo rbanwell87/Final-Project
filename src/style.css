@@ -9,10 +9,9 @@ li {
   color: rgba(0, 0, 255, 0.692);
   list-style: none;
   margin-left: 5px;
- 
 }
 li::first-letter {
-   text-transform: capitalize;
+  text-transform: capitalize;
 }
 .weather-app-wrapper {
   max-width: 600px;
@@ -31,3 +30,7 @@ li::first-letter {
 #unit {
   font-size: 18px;
   vertical-align: top;
+}
+#city {
+  margin-top: 30px;
+}
