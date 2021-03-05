@@ -40,19 +40,17 @@
           </ul>
           <div class="row">
             <div class="col-6">
-              <img
-                src="http://openweathermap.org/img/wn/10d@2x.png"
-                alt="clear"
-                id="icon"
-              />
-              <span id="temperature"></span><span id="unit">°C | °F</span>
+              <div class=weather-temperature>
+              <img src="" alt="" id="icon" />
+              <span id="temperature"></span>
+              <span class="units"></span>
+                <a href="#" id="celcius-link" class=>°C</a> | 
+                <a href="#" id="fahrenheit-link">°F</a>
+              </span>
             </div>
-
+</div>
             <div class="col-6">
               <ul>
-                <li>
-                  <strong>Feels like: <span id="feels-like"></span>°</strong>
-                </li>
                 <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind: <span id="wind"></span> km/h</li>
               </ul>
