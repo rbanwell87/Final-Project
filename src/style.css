@@ -9,7 +9,10 @@ li {
   color: rgba(0, 0, 255, 0.692);
   list-style: none;
   margin-left: 5px;
-  text-transform: capitalize;
+ 
+}
+li::first-letter {
+   text-transform: capitalize;
 }
 .weather-app-wrapper {
   max-width: 600px;
