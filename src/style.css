@@ -38,7 +38,8 @@ li:first-letter {
   margin-top: 30px;
 }
 .weather-temperature .active {
-  color: black;
+  color: #ddddddb6;
+
   cursor: default;
   text-decoration: none;
 }
@@ -49,9 +50,18 @@ li:first-letter {
   background: #f25287;
   border: 1px solid #f25287;
 }
+.btn:hover {
+  background: #f25287e7;
+  border: 1px solid white;
+  transition-delay: 250ms;
+}
 .city-details {
   text-align: center;
   margin: 30px;
   padding: 10px;
-  border: 1px solid #f7d9d9;
+}
+.card {
+  background: #f3dddd;
+  margin: 0 auto;
+  padding: 20px;
 }
